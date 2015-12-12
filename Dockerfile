@@ -26,3 +26,5 @@ RUN chmod +x /usr/local/bin/terminal && \
  chmod +x /sbin/run.sh
 
 CMD ["/sbin/run.sh"]
+
+ADD IDEA /home/ide/IDEA
