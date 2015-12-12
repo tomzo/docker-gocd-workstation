@@ -1,3 +1,3 @@
 #!/bin/bash
 
-firefox http://localhost:8153
+firefox http://localhost:8153 &

@@ -1,3 +1,3 @@
 #!/bin/bash
 
-exec /opt/intellij/bin/idea.sh
+/opt/intellij/bin/idea.sh
