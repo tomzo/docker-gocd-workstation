@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.ops4j.pax.tinybundles:tinybundles:2.0.0-custom">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/ops4j/pax/tinybundles/tinybundles/2.0.0-custom/tinybundles-2.0.0-custom.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/ops4j/pax/tinybundles/tinybundles/2.0.0-custom/tinybundles-2.0.0-custom-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/ops4j/pax/tinybundles/tinybundles/2.0.0-custom/tinybundles-2.0.0-custom-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

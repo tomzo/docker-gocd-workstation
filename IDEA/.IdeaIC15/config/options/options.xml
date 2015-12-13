@@ -1,0 +1,15 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlDoctype.MigrateToHtml5" value="true" />
+    <property name="DefaultHtmlDoctype.Refreshed" value="2" />
+    <property name="installed.kotlin.plugin.version" value="1.0.0-beta-2428-IJ143-18" />
+    <property name="installation.uid" value="418d68ac-b781-4715-b5d5-0578e36336c6" />
+    <property name="android-component-compatibility-check" value="1449944737081" />
+    <property name="file.chooser.recent.files" value="/usr/lib/jvm/java-7-openjdk-amd64&#10;/ide/work" />
+    <property name="last.imported.location" value="/ide/work" />
+    <property name="create.project.preferred.importer" value="Maven" />
+    <property name="toolwindow.stripes.buttons.info.shown" value="true" />
+    <property name="lastTip" value="1" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+  </component>
+</application>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.tlb:tlb-java:0.3.2-90-g6df47e3">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/tlb/tlb-java/0.3.2-90-g6df47e3/tlb-java-0.3.2-90-g6df47e3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/tlb/tlb-java/0.3.2-90-g6df47e3/tlb-java-0.3.2-90-g6df47e3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/tlb/tlb-java/0.3.2-90-g6df47e3/tlb-java-0.3.2-90-g6df47e3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -7,7 +7,7 @@ if [ -d "/ide/identity/.IdeaIC15" ]; then
   cp -R /ide/identity/.IdeaIC15 /home/ide
 else
   # copy the settings provided with image
-  cp -R /home/ide/IDEA/IdeaIC15 /home/ide/.IdeaIC15
+  cp -R /home/ide/IDEA/.IdeaIC15 /home/ide/.IdeaIC15
 fi
 
 if [ -d "/ide/work/.idea" ]; then
@@ -15,7 +15,7 @@ if [ -d "/ide/work/.idea" ]; then
   echo "Detected existing gocd IDEA project in /ide/work"
 else
   # copy the settings provided with image
-  cp -R /home/ide/IDEA/gocd /home/ide/.idea
+  cp -R /home/ide/IDEA/gocd.idea /ide/work/.idea
 fi
 
 /opt/intellij/bin/idea.sh /ide/work
