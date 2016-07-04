@@ -38,13 +38,13 @@ with configured and opened gocd project.
 
 You can start docker in **non-interactive** mode
 ```
-docker run -v /tmp/.X11-unix:/tmp/.X11-unix -v ~/code/gocd:/ide/work -v ~:/ide/identity:ro -e DISPLAY="unix:0.0" tomzo/gocd-workstation
+docker run -p 8153 -v /tmp/.X11-unix:/tmp/.X11-unix -v ~/code/gocd:/ide/work -v ~:/ide/identity:ro -e DISPLAY="unix:0.0" tomzo/gocd-workstation
 ```
 This will open intellij and terminator.
 
 You can also start docker in **interactive** mode.
 ```
-docker run -ti -v /tmp/.X11-unix:/tmp/.X11-unix -v ~/code/gocd:/ide/work -v ~:/ide/identity:ro -e DISPLAY="unix:0.0" tomzo/gocd-workstation
+docker run -ti -p 8153 -v /tmp/.X11-unix:/tmp/.X11-unix -v ~/code/gocd:/ide/work -v ~:/ide/identity:ro -e DISPLAY="unix:0.0" tomzo/gocd-workstation
 ```
 
 This will put you in the container in `bash` shell.

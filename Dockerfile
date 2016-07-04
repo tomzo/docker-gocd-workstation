@@ -1,4 +1,4 @@
-FROM tomzo/gocd-ide:0.1.2
+FROM tomzo/gocd-ide:0.2.0
 
 RUN echo "ide ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/ide && \
     chmod 0440 /etc/sudoers.d/ide
