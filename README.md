@@ -31,8 +31,7 @@ Start container with all tools and configuration that you need.
 ```
 docker run -v /tmp/.X11-unix:/tmp/.X11-unix -v `pwd`/gocd:/ide/work -v ~:/ide/identity:ro -e DISPLAY="unix:0.0" tomzo/gocd-workstation
 ```
-2 windows should pop up at you - a terminal titled `GoCD IDE` and Intellij IDEA
-with configured and opened gocd project.
+2 windows should pop up at you - a terminal titled `GoCD IDE` and Intellij IDEA.
 
 ## Using with docker
 
