@@ -1,4 +1,4 @@
-FROM tomzo/gocd-ide:0.2.0
+FROM tomzo/gocd-ide:0.3.0
 
 RUN echo "ide ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/ide && \
     chmod 0440 /etc/sudoers.d/ide
@@ -26,5 +26,3 @@ RUN chmod +x /usr/local/bin/terminal && \
  chmod +x /sbin/run.sh
 
 CMD ["/sbin/run.sh"]
-
-ADD IDEA /home/ide/IDEA
