@@ -33,6 +33,13 @@ docker run -v /tmp/.X11-unix:/tmp/.X11-unix -v `pwd`/gocd:/ide/work -v ~:/ide/id
 ```
 2 windows should pop up at you - a terminal titled `GoCD IDE` and Intellij IDEA.
 
+### Intellij caveats
+
+Lately, I often run into problems using intellij with gradle.
+1. After import if you see a lot of errors regarding unresolved core java types, such as `String`, you may be [affected by this bug](https://stackoverflow.com/questions/3049433/intellij-gives-fatal-error-unable-to-find-package-java-lang-in-classpath-or-boo)
+and need to re-apply the `SDK home path` (Click on it and select same path again). After this more jars should be listed in the window.
+2. If you are still having import errors, e.g. in tests. Try `File -> Invalidate Caches/Restart`
+
 ## Using with docker
 
 You can start docker in **non-interactive** mode
